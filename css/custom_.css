@@ -1,0 +1,39 @@
+body { 
+  background: url('../images/laptop.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.container-fluid{
+	text-align: center;
+}
+
+h3{
+	
+	color: white;
+	text-align: center;
+	margin-top: 140px;
+}
+
+hr{
+	color:red;
+	margin-top: 150px;
+	width:40px;
+	border: 1px solid orange;
+}
+
+.btn-warning{
+	margin-top:5px;
+	border-radius: 50px;
+	background-color:orange;
+	transform: scale(1.1);
+
+}
+
+.btn-warning:hover{
+	transition: all 1s;
+	margin:10px;
+}
